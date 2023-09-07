@@ -12,5 +12,6 @@ Configuração Flexível: O código pode ser facilmente configurado para se adap
 
 # Sobre os arquivos .py
 Ao utilizar os códigos fornecidos é preciso configura-los para funcionarem em seu determinado sistema. Os códigos possuem configurações para um banco de dados MySQL, então tenha em mente de adicionar corretamente as informações de banco de dados para que o programa não venha ter nenhum erro.
+Além disso, utilize o pip install para instalar as bibliotecas fornecidas no código.
 
 # Este repositório é uma solução versátil e de fácil implementação para monitoramento de distância usando um sensor ultrassônico com Arduino. Aproveite e personalize conforme suas necessidades específicas.
