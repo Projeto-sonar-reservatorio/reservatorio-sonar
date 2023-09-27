@@ -18,8 +18,11 @@ Configuração Flexível: O código pode ser facilmente configurado para se adap
 
 # Sobre os arquivos .py
 Ao utilizar os códigos fornecidos é preciso configura-los para funcionarem em seu determinado sistema. Os códigos possuem configurações para um banco de dados MySQL, então tenha em mente de adicionar corretamente as informações de banco de dados para que o programa não venha ter nenhum erro.
+
 Para rodar os programas.py basta digitar:
+
 python app.py --> para testar o programa de colhimento de dados do sensor.
+
 python app_grafico.py --> para testar o programa de exibição do gráfico do nível de água medido pelo sensor.
 
 # Este repositório é uma solução versátil e de fácil implementação para monitoramento de distância usando um sensor ultrassônico com Arduino. Aproveite e personalize conforme suas necessidades específicas.
