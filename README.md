@@ -63,4 +63,4 @@ ser = serial.Serial('COMX', 9600)  # Substitua 'COMX' pela porta serial correta
 ```
 
 
-# Este repositório é uma solução versátil e de fácil implementação para monitoramento de distância usando um sensor ultrassônico com Arduino. Aproveite e personalize conforme suas necessidades específicas.
+## Este repositório é uma solução versátil e de fácil implementação para monitoramento de distância usando um sensor ultrassônico com Arduino. Aproveite e personalize conforme suas necessidades específicas.
