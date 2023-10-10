@@ -39,7 +39,7 @@ Para implementação do sistema, precisa-se criar uma estrutura de banco de dado
 
 ## Conexão com o banco de dados
 
-No arquivo app.py, deverá ser modificado o código de acordo com as especificações do banco de dados onde o sistema será implementado. Por exemplo, no código abaixo, é necessário substituir "seu_host", "seu_usuario", "sua_senha", e "seu_banco_de_dados" pelos valores corretos do banco de dados.
+No arquivo app.py, deverá ser modificado o código de acordo com as especificações do banco de dados onde o sistema será implementado. Por exemplo, no código abaixo, é necessário substituir __"seu_host"__, __"seu_usuario"__, __"sua_senha"__, e __"seu_banco_de_dados"__ pelos valores corretos do banco de dados.
 
 ```
 import mysql.connector
