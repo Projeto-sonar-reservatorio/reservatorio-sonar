@@ -6,7 +6,9 @@ Este trabalho apresenta uma solução visando o desenvolvimento de um sistema de
 # Python 3.11.5
 
 # Para instalar os requirements
+```
 pip install -r requirements.txt
+```
 
 Os requirements nada mais é do que as bibliotecas python que serão necessárias para rodar os programas do projeto.
 
