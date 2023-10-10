@@ -37,23 +37,25 @@ Para implementação do sistema, precisa-se criar uma estrutura de banco de dado
 
 ## Conexão com o banco de dados
 
-Em Python, é necessário utilizar uma biblioteca 'mysql_connector' para estabelecer uma conexão com o banco de dados. Certifique-se de que a biblioteca esteja instalada no seu ambiente Python.
+No arquivo app.py, deverá ser modificado o código de acordo com as especificações do banco de dados onde o sistema será implementado. Por exemplo, no código abaixo, é necessário substituir "seu_host", "seu_usuario", "sua_senha", e "seu_banco_de_dados" pelos valores corretos do banco de dados.
 
 ```
 import mysql.connector
 
-db_connection = mysql.connector.connect(
+db = mysql.connector.connect(
     host="seu_host",
     user="seu_usuario",
     password="sua_senha",
     database="seu_banco_de_dados"
 )
 
-cursor = db_connection.cursor()
+cursor = db.cursor()
 ```
-Lembre-se de substituir "seu_host", "seu_usuario", "sua_senha", e "seu_banco_de_dados" pelos valores corretos de acordo com a sua configuração do MySQL.
+## Conexão da porta serial do arduino
 
+Para conectar o arduino ao sistema é preciso ver qual porta o microcontrolador irá funcionar. No arquivo app.py, deverá ser modificado o seguinte código abaixo:
 
+```
 
 
 
