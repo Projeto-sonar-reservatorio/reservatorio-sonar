@@ -1,3 +1,8 @@
+# Descrição do projeto
+
+Este trabalho apresenta uma solução visando o desenvolvimento de um sistema de monitoramento de nível de água em caixas d'água de baixo custo. Foi simulado um circuito microcontrolado que faz a interface entre um sensor sonar e um sistema computacional. O sonar é responsável por estimar o volume de água da cisterna ou caixa d'água.  O objetivo é criar um sistema para facilitar a visualização do nível do controle de reservatórios. 
+
+
 # Python 3.11.5
 
 # Para instalar os requirements
@@ -25,5 +30,27 @@ Para rodar os programas.py basta digitar:
 python app.py --> para testar o programa de colhimento de dados do sensor.
 
 python app_grafico.py --> para testar o programa de exibição do gráfico do nível de água medido pelo sensor.
+
+# Implementação do sistema
+
+Para implementação do sistema, precisa-se criar uma estrutura de banco de dados no programa MySQL com base nos dados do sensor sonar, é necessario configurar uma conexão com o banco de dados e, em seguida, escrever o código para inserir os dados do sensor no banco de dados.
+
+## Conexão com o banco de dados
+
+Em Python, é necessário utilizar uma biblioteca 'mysql_connector' para estabelecer uma conexão com o banco de dados. Certifique-se de que a biblioteca esteja instalada no seu ambiente Python.
+
+'''
+import mysql.connector
+
+db_connection = mysql.connector.connect(
+    host="seu_host",
+    user="seu_usuario",
+    password="sua_senha",
+    database="seu_banco_de_dados"
+)
+
+# Cria um cursor para executar comandos SQL
+cursor = db_connection.cursor()
+'''
 
 # Este repositório é uma solução versátil e de fácil implementação para monitoramento de distância usando um sensor ultrassônico com Arduino. Aproveite e personalize conforme suas necessidades específicas.
