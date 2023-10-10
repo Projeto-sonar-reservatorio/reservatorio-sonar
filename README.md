@@ -56,6 +56,9 @@ cursor = db.cursor()
 Para conectar o arduino ao sistema é preciso ver qual porta o microcontrolador irá funcionar. No arquivo app.py, deverá ser modificado o seguinte código abaixo:
 
 ```
+# Configuração da porta serial
+ser = serial.Serial('COMX', 9600)  # Substitua 'COMX' pela porta serial correta
+```
 
 
 
