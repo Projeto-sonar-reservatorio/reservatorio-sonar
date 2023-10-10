@@ -39,7 +39,7 @@ Para implementação do sistema, precisa-se criar uma estrutura de banco de dado
 
 Em Python, é necessário utilizar uma biblioteca 'mysql_connector' para estabelecer uma conexão com o banco de dados. Certifique-se de que a biblioteca esteja instalada no seu ambiente Python.
 
-
+```
 import mysql.connector
 
 db_connection = mysql.connector.connect(
@@ -50,6 +50,6 @@ db_connection = mysql.connector.connect(
 )
 
 cursor = db_connection.cursor()
-
+```
 
 # Este repositório é uma solução versátil e de fácil implementação para monitoramento de distância usando um sensor ultrassônico com Arduino. Aproveite e personalize conforme suas necessidades específicas.
