@@ -51,5 +51,10 @@ db_connection = mysql.connector.connect(
 
 cursor = db_connection.cursor()
 ```
+Lembre-se de substituir "seu_host", "seu_usuario", "sua_senha", e "seu_banco_de_dados" pelos valores corretos de acordo com a sua configuração do MySQL.
+
+
+
+
 
 # Este repositório é uma solução versátil e de fácil implementação para monitoramento de distância usando um sensor ultrassônico com Arduino. Aproveite e personalize conforme suas necessidades específicas.
