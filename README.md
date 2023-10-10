@@ -49,7 +49,6 @@ db_connection = mysql.connector.connect(
     database="seu_banco_de_dados"
 )
 
-.# Cria um cursor para executar comandos SQL
 cursor = db_connection.cursor()
 
 
