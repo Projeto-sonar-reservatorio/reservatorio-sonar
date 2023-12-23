@@ -39,6 +39,8 @@ Para implementação do sistema, precisa-se criar uma estrutura de banco de dado
 
 ## Conexão com o banco de dados
 
+Primeiro de tudo, deve-se criar um banco de dados MySQL para esse sistema, pode-se criar um baixando os pacotes de ferramentas direto do site do MySQL que irá facilitar a criação do banco de dados.
+Para esse sistema, os dados foram colocados em uma tabela e organaizados em data_de_leitura, distancia e porcentagem.
 No arquivo app.py, deverá ser modificado o código de acordo com as especificações do banco de dados onde o sistema será implementado. Por exemplo, no código abaixo, é necessário substituir __"seu_host"__, __"seu_usuario"__, __"sua_senha"__, e __"seu_banco_de_dados"__ pelos valores corretos do banco de dados.
 
 ```
@@ -55,8 +57,6 @@ cursor = db.cursor()
 ```
 ## Conexão da porta serial do arduino
 
-Primeiro de tudo, deve-se criar um banco de dados MySQL para esse sistema, pode-se criar um baixando os pacotes de ferramentas direto do site do MySQL que irá facilitar a criação do banco de dados.
-Para esse sistema, os dados foram colocados em uma tabela e organaizados em data_de_leitura, distancia e porcentagem.
 Para conectar o arduino ao sistema é preciso ver qual porta o microcontrolador irá funcionar. No arquivo app.py, deverá ser modificado o seguinte código abaixo:
 
 ```
