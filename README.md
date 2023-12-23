@@ -55,6 +55,8 @@ cursor = db.cursor()
 ```
 ## Conexão da porta serial do arduino
 
+Primeiro de tudo, deve-se criar um banco de dados MySQL para esse sistema, pode-se criar um baixando os pacotes de ferramentas direto do site do MySQL que irá facilitar a criação do banco de dados.
+Para esse sistema, os dados foram colocados em uma tabela e organaizados em data_de_leitura, distancia e porcentagem.
 Para conectar o arduino ao sistema é preciso ver qual porta o microcontrolador irá funcionar. No arquivo app.py, deverá ser modificado o seguinte código abaixo:
 
 ```
